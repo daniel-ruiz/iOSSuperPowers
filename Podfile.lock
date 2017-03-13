@@ -1,0 +1,19 @@
+PODS:
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.2.0)
+  - SwiftGen (4.1.0)
+
+DEPENDENCIES:
+  - RxCocoa (= 3.2.0)
+  - RxSwift (= 3.2.0)
+  - SwiftGen (= 4.1.0)
+
+SPEC CHECKSUMS:
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  SwiftGen: d29fd8b7aa52092411d415fb09d0abd3d79ea1a5
+
+PODFILE CHECKSUM: 9c8dd5451b117da4f4a6287d339593336e84ad81
+
+COCOAPODS: 1.1.1
