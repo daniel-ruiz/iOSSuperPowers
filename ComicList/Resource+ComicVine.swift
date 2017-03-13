@@ -9,7 +9,7 @@
 import Foundation
 import Networking
 
-let apiKey = // Grab your own API Key from http://comicvine.gamespot.com/api/
+let apiKey: String = // Grab your own API Key from http://comicvine.gamespot.com/api/
 private let apiURL = URL(string: "http://www.comicvine.com/api")!
 
 extension Resource where M: JSONDecodable {
