@@ -67,4 +67,16 @@ extension Volume {
 			]
 		)
 	}
+    
+    public static func issues(forVolumeIdentifier volumeId: Int64) -> Resource<Response<Issue>> {
+        return Resource(
+            comicVinePath: "issues",
+            parameters: [
+                "api_key": apiKey,
+                "format": "json",
+                "field_list": "id,image,name,volume",
+                "filter": "volume:\(volumeId)"
+            ]
+        )
+    }
 }
